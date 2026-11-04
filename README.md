@@ -1,3 +1,4 @@
+![Prompt Sensei](prompt-sensei-banner.png)
 # prompt-sensei
 
 A Claude skill that looks over your prompt before you spend anything on it.
