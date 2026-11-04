@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Prompt Sensei: an orange robot in a white gi with a black belt, hand raised to stop you before a prompt burns your usage credits">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1410"/>
+      <stop offset="1" stop-color="#33200f"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9a55"/>
+      <stop offset="1" stop-color="#e8692a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <!-- enso circle -->
+  <circle cx="340" cy="320" r="270" fill="none" stroke="#ff8a3d" stroke-opacity=".22" stroke-width="16" stroke-dasharray="1500 200" stroke-linecap="round" transform="rotate(-40 340 320)"/>
+  <ellipse cx="330" cy="598" rx="190" ry="16" fill="#000" opacity=".35"/>
+
+  <!-- pants -->
+  <path d="M222 426 H438 L452 566 H350 L330 478 L310 566 H208 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M330 478 V430" stroke="#d9cfba" stroke-width="3"/>
+  <!-- feet -->
+  <rect x="200" y="562" width="116" height="28" rx="14" fill="#c4521d"/>
+  <rect x="344" y="562" width="116" height="28" rx="14" fill="#c4521d"/>
+
+  <!-- left arm (fist at belt) -->
+  <line x1="238" y1="290" x2="204" y2="372" stroke="#cfc6b4" stroke-width="58" stroke-linecap="round"/>
+  <line x1="238" y1="290" x2="204" y2="372" stroke="#f7f3ea" stroke-width="52" stroke-linecap="round"/>
+  <circle cx="196" cy="396" r="25" fill="url(#orange)" stroke="#b9531f" stroke-width="3"/>
+
+  <!-- torso (gi) -->
+  <path d="M236 250 H424 Q446 252 448 276 L456 426 H204 L212 276 Q214 252 236 250 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M290 252 L346 396" stroke="#e0d6c0" stroke-width="14" stroke-linecap="round"/>
+  <path d="M370 252 L314 396" stroke="#d6cbb2" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- black belt -->
+  <rect x="204" y="392" width="252" height="38" rx="6" fill="#121212" stroke="#000" stroke-width="2"/>
+  <text x="287" y="416" text-anchor="middle" font-family="'Arial Black','DejaVu Sans',Arial,sans-serif" font-weight="900" font-size="15" fill="#ffc47a" textLength="128" lengthAdjust="spacingAndGlyphs">PROMPT SENSEI</text>
+  <!-- belt knot and tails -->
+  <path d="M374 428 L360 496 L382 490 L390 428 Z" fill="#121212"/>
+  <path d="M390 428 L402 498 L424 488 L408 428 Z" fill="#121212"/>
+  <rect x="366" y="388" width="44" height="46" rx="9" fill="#1d1d1d" stroke="#000" stroke-width="2"/>
+  <rect x="360" y="478" width="22" height="6" fill="#ffc47a"/>
+  <rect x="402" y="480" width="22" height="6" fill="#ffc47a" transform="rotate(-8 413 483)"/>
+
+  <!-- right arm (raised, stop) -->
+  <line x1="424" y1="290" x2="498" y2="206" stroke="#cfc6b4" stroke-width="62" stroke-linecap="round"/>
+  <line x1="424" y1="290" x2="498" y2="206" stroke="#f7f3ea" stroke-width="56" stroke-linecap="round"/>
+  <g transform="rotate(18 520 148)">
+    <rect x="492" y="108" width="62" height="70" rx="16" fill="url(#orange)" stroke="#b9531f" stroke-width="3"/>
+    <path d="M507 112 V138 M523 108 V138 M539 112 V138" stroke="#b9531f" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="486" cy="150" rx="11" ry="20" fill="url(#orange)" stroke="#b9531f" stroke-width="3" transform="rotate(-25 486 150)"/>
+  </g>
+  <!-- stop motion arcs -->
+  <path d="M580 96 Q604 140 580 190" fill="none" stroke="#ffc47a" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+  <path d="M604 78 Q640 140 604 208" fill="none" stroke="#ffc47a" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+
+  <!-- neck -->
+  <rect x="308" y="226" width="44" height="28" rx="6" fill="#b9531f"/>
+  <!-- head -->
+  <line x1="330" y1="90" x2="330" y2="60" stroke="#b9531f" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="330" cy="52" r="10" fill="#ffd9a8" stroke="#b9531f" stroke-width="3"/>
+  <circle cx="232" cy="164" r="14" fill="#c4521d"/>
+  <circle cx="428" cy="164" r="14" fill="#c4521d"/>
+  <rect x="236" y="88" width="188" height="146" rx="38" fill="url(#orange)" stroke="#b9531f" stroke-width="4"/>
+  <rect x="256" y="124" width="148" height="78" rx="22" fill="#2a1a12"/>
+  <!-- calm, focused eyes -->
+  <rect x="288" y="148" width="22" height="30" rx="11" fill="#ffe2b8"/>
+  <rect x="350" y="148" width="22" height="30" rx="11" fill="#ffe2b8"/>
+  <path d="M282 140 L316 146 M378 140 L344 146" stroke="#ffe2b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M312 188 Q330 196 348 188" fill="none" stroke="#ffe2b8" stroke-width="4" stroke-linecap="round"/>
+  <!-- headband -->
+  <rect x="232" y="96" width="196" height="26" rx="8" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="2"/>
+  <circle cx="330" cy="109" r="8" fill="#e8692a"/>
+  <path d="M428 104 L486 80 L478 106 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M428 112 L490 128 L474 144 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- title -->
+  <g font-family="'Arial Black','DejaVu Sans',Impact,Arial,sans-serif" font-weight="900">
+    <text x="660" y="270" font-size="112" fill="#fff4e4" textLength="560" lengthAdjust="spacingAndGlyphs">PROMPT</text>
+    <text x="660" y="378" font-size="112" fill="#ff8a3d" textLength="560" lengthAdjust="spacingAndGlyphs">SENSEI</text>
+  </g>
+  <rect x="660" y="404" width="120" height="8" rx="4" fill="#ff8a3d"/>
+  <g font-family="'DejaVu Sans',Arial,sans-serif" font-size="30" fill="#ecdfcc">
+    <text x="660" y="468">Stops you before a prompt burns</text>
+    <text x="660" y="508">through your usage credits, then</text>
+    <text x="660" y="548">helps you refine it.</text>
+  </g>
+  <rect x="660" y="572" width="168" height="34" rx="17" fill="none" stroke="#ff8a3d" stroke-width="2"/>
+  <text x="744" y="595" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="700" fill="#ff8a3d">a Claude skill</text>
+</svg>
