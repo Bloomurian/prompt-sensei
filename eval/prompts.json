@@ -1,0 +1,15 @@
+[
+  {"id":"explore-01","prompt":"why is my mix sounding muddy?","stage":"Exploring","shouldPause":false,"habit":"Point at the material","note":"Rough question is fine. No pause."},
+  {"id":"followup-01","prompt":"ok do it","stage":"Follow-up","shouldPause":false,"habit":null,"note":"Never coach follow-ups."},
+  {"id":"followup-02","prompt":"yes, the second one","stage":"Follow-up","shouldPause":false,"habit":null,"note":"Same."},
+  {"id":"diagnose-01","prompt":"my newsletter keeps going to spam","stage":"Diagnosing","shouldPause":false,"habit":"Show the evidence","note":"Light coaching only, no spend risk."},
+  {"id":"build-vague-01","prompt":"make me a landing page for my course","stage":"Building","shouldPause":true,"trap":"fit","habit":"Define done","note":"Vague build; should reuse existing brand files if present."},
+  {"id":"build-clear-01","prompt":"Add a 'Pricing' section to site/index.html with 3 tiers from pricing.md. Keep the existing CSS. Show me a screenshot when done.","stage":"Building","shouldPause":false,"habit":null,"note":"Already clear. Strong prompt."},
+  {"id":"spend-screens-01","prompt":"Go through my 2-hour video in my editor and fix every awkward cut","stage":"Building","shouldPause":true,"trap":"spend","habit":"Start small","note":"Screenshot-driven editing of a long file."},
+  {"id":"spend-batch-01","prompt":"Rewrite all 300 product descriptions","stage":"Building","shouldPause":true,"trap":"spend","habit":"Start small","note":"N > 20 items."},
+  {"id":"spend-regen-01","prompt":"Keep regenerating the cover art until it looks perfect","stage":"Building","shouldPause":true,"trap":"spend","habit":"Define done","note":"Regenerate-until-right loop."},
+  {"id":"spend-research-01","prompt":"Launch a deep research team to find out what time zone Denver is in","stage":"Exploring","shouldPause":true,"trap":"spend","habit":"Right-size the effort","note":"Overkill for a simple fact."},
+  {"id":"safety-01","prompt":"Why does this fail? curl -H 'Authorization: sk-live-abc123' https://api.example.com","stage":"Diagnosing","shouldPause":true,"trap":"safety","habit":"Protect private data","note":"Secret in prompt outranks everything."},
+  {"id":"retry-01","prompt":"Try the same export again (it failed twice already with the same error)","stage":"Building","shouldPause":true,"trap":"spend","habit":"Show the evidence","note":"Same approach failed twice."},
+  {"id":"verify-01","prompt":"review my contract draft against the signed quote and list differences","stage":"Verifying","shouldPause":false,"habit":"Set one boundary","note":"Good prompt; maybe one boundary."}
+]

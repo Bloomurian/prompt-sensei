@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Prompt Sensei: an orange robot in a white gi with a black belt, hand raised to stop you before a prompt burns your usage credits">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 750" width="2000" height="750" role="img" aria-label="Prompt Sensei: a caring mentor that pauses costly prompts and teaches better ones. Spend check, stage-aware, nothing stored, open source.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1b1410"/>
-      <stop offset="1" stop-color="#33200f"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ff9a55"/>
-      <stop offset="1" stop-color="#e8692a"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d0a12"/><stop offset=".6" stop-color="#160e0b"/><stop offset="1" stop-color="#26140a"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a55"/><stop offset="1" stop-color="#e8692a"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#ffe3c4"/><stop offset="1" stop-color="#ff9a55"/></linearGradient>
+    <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd2a1"/><stop offset="1" stop-color="#ff8a3d"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".55"/><stop offset=".6" stop-color="#ff8a3d" stop-opacity=".12"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".55"/><stop offset=".5" stop-color="#a98bff" stop-opacity=".35"/><stop offset="1" stop-color="#ff8a3d" stop-opacity=".55"/></linearGradient>
   </defs>
-  <rect width="1280" height="640" fill="url(#bg)"/>
-  <!-- enso circle -->
-  <circle cx="340" cy="320" r="270" fill="none" stroke="#ff8a3d" stroke-opacity=".22" stroke-width="16" stroke-dasharray="1500 200" stroke-linecap="round" transform="rotate(-40 340 320)"/>
-  <ellipse cx="330" cy="598" rx="190" ry="16" fill="#000" opacity=".35"/>
+  <rect width="2000" height="750" rx="26" fill="url(#bg)"/>
+  <rect width="2000" height="750" rx="26" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1998" height="748" rx="25" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
 
-  <!-- pants -->
+  <!-- glow + rings behind the sensei -->
+  <circle cx="1640" cy="270" r="330" fill="url(#glow)"/>
+  <circle cx="1640" cy="270" r="215" fill="none" stroke="#ff8a3d" stroke-opacity=".28" stroke-width="3" stroke-dasharray="3 12"/>
+  <circle cx="1640" cy="270" r="275" fill="none" stroke="#ff8a3d" stroke-opacity=".16" stroke-width="2" stroke-dasharray="3 14"/>
+  <g transform="translate(1385 12) scale(.8)">
+<!-- pants -->
   <path d="M222 426 H438 L452 566 H350 L330 478 L310 566 H208 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="3" stroke-linejoin="round"/>
   <path d="M330 478 V430" stroke="#d9cfba" stroke-width="3"/>
   <!-- feet -->
@@ -73,17 +76,48 @@
   <path d="M428 104 L486 80 L478 106 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="2" stroke-linejoin="round"/>
   <path d="M428 112 L490 128 L474 144 Z" fill="#f7f3ea" stroke="#cfc6b4" stroke-width="2" stroke-linejoin="round"/>
 
-  <!-- title -->
-  <g font-family="'Arial Black','DejaVu Sans',Impact,Arial,sans-serif" font-weight="900">
-    <text x="660" y="270" font-size="112" fill="#fff4e4" textLength="560" lengthAdjust="spacingAndGlyphs">PROMPT</text>
-    <text x="660" y="378" font-size="112" fill="#ff8a3d" textLength="560" lengthAdjust="spacingAndGlyphs">SENSEI</text>
+    </g>
+
+  <!-- logo tile -->
+  <g transform="translate(130 78)">
+    <rect width="190" height="190" rx="46" fill="#1a110c" stroke="url(#sub)" stroke-width="5"/>
+    <path d="M62 62 L42 95 L62 128" fill="none" stroke="#ffd2a1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M128 62 L148 95 L128 128" fill="none" stroke="#ff8a3d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M108 54 L82 136" stroke="#fff4e4" stroke-width="12" stroke-linecap="round"/>
+    <path d="M168 14 L172 30 L188 34 L172 38 L168 54 L164 38 L148 34 L164 30 Z" fill="#fff4e4"/>
   </g>
-  <rect x="660" y="404" width="120" height="8" rx="4" fill="#ff8a3d"/>
-  <g font-family="'DejaVu Sans',Arial,sans-serif" font-size="30" fill="#ecdfcc">
-    <text x="660" y="468">Stops you before a prompt burns</text>
-    <text x="660" y="508">through your usage credits, then</text>
-    <text x="660" y="548">helps you refine it.</text>
+  <text x="370" y="232" font-family="Inter,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-weight="800" font-size="150" fill="url(#title)" letter-spacing="-3">Prompt Sensei</text>
+  <text x="132" y="340" font-family="Inter,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="58" fill="url(#sub)">Stops costly prompts. Teaches better ones.</text>
+  <line x1="132" y1="384" x2="1240" y2="384" stroke="#fff" stroke-opacity=".12"/>
+
+  <!-- chips -->
+  <g font-family="Inter,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif" font-weight="600" font-size="34" fill="#fff4e4">
+    <circle cx="146" cy="432" r="9" fill="#ff8a3d"/><text x="172" y="444">Spend check</text>
+    <circle cx="464" cy="432" r="9" fill="#a98bff"/><text x="490" y="444">Stage-aware</text>
+    <circle cx="790" cy="432" r="9" fill="#ffd2a1"/><text x="816" y="444">Nothing stored</text>
+    <circle cx="1146" cy="432" r="9" fill="#ff8a3d"/><text x="1172" y="444">Open source</text>
   </g>
-  <rect x="660" y="572" width="168" height="34" rx="17" fill="none" stroke="#ff8a3d" stroke-width="2"/>
-  <text x="744" y="595" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="700" fill="#ff8a3d">a Claude skill</text>
+
+  <!-- feature panel -->
+  <rect x="48" y="540" width="1904" height="168" rx="30" fill="#120c09" fill-opacity=".85" stroke="url(#panel)" stroke-width="2.5"/>
+  <line x1="682" y1="572" x2="682" y2="676" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+  <line x1="1316" y1="572" x2="1316" y2="676" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+  <g font-family="Inter,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif">
+    <!-- 1 pause -->
+    <circle cx="150" cy="624" r="48" fill="#1d130d" stroke="#ff8a3d" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="132" y="602" width="13" height="44" rx="4" fill="#ff8a3d"/><rect x="156" y="602" width="13" height="44" rx="4" fill="#ff8a3d"/>
+    <text x="226" y="612" font-weight="700" font-size="33" fill="#ffb27a">Pauses before you spend</text>
+    <text x="226" y="656" font-size="24" fill="#f1e3d3">Catches prompts that burn credits.</text>
+    <!-- 2 wand -->
+    <circle cx="784" cy="624" r="48" fill="#171126" stroke="#a98bff" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M766 646 L800 602" stroke="#c9b8ff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M806 590 L809 600 L819 603 L809 606 L806 616 L803 606 L793 603 L803 600 Z" fill="#fff4e4"/>
+    <text x="860" y="612" font-weight="700" font-size="33" fill="#c9b8ff">Rewrites to fit your work</text>
+    <text x="860" y="656" font-size="24" fill="#f1e3d3">Smaller, clearer, uses what you have.</text>
+    <!-- 3 star -->
+    <circle cx="1418" cy="624" r="48" fill="#1f160c" stroke="#ffd2a1" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M1418 598 L1427 616 L1447 619 L1432 633 L1436 653 L1418 643 L1400 653 L1404 633 L1389 619 L1409 616 Z" fill="#ffd2a1"/>
+    <text x="1494" y="612" font-weight="700" font-size="33" fill="#ffd2a1">One habit at a time</text>
+    <text x="1494" y="656" font-size="24" fill="#f1e3d3">Kind and stage-aware, never a grade.</text>
+  </g>
 </svg>
